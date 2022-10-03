@@ -10,10 +10,11 @@ body{
 
 .container{
     margin: auto;
-    width: 60%;
+    width: 95%;
     margin-top: 20px;
     margin-bottom: 50px;
     background-color: #fff;
+    border-radius: 10px;
 }
 
 .head{
@@ -26,6 +27,7 @@ body{
 
 .logo{
     width: 5%;
+    min-width:50px;
 }
 
 .logo img{
@@ -38,6 +40,7 @@ body{
 }
 
 .connect-wallet{
+    border-radius: 5px;
     background-color: black;
     color: #fff;
     font-size: 20px;
@@ -54,18 +57,28 @@ body{
 .collectibles{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
     padding-bottom: 30px;
+    /* height: calc(100vh - 300px);/ */
+    height: 90vh;
+    min-width: 300px;
+    max-height: 100vh;
+    border-radius: 0px;
+    border: 0px solid white;
+    display: flex;
+    margin-top: 0px;
 }
 
 .edittrax{
-    padding: 10px;
+    /* padding: 10px; */
+    height:100%
 }
 
 .edittrax iframe{
     width: 500px;
-    height: 500px;
+    height: 100%;
+    max-width: 100%;
     border: none;
 }
 
@@ -76,6 +89,7 @@ body{
     font-weight: bold;
     padding: 15px;
     width: 40%;
+    border-radius:5px;
 }
 
 .collect:hover{
@@ -188,7 +202,7 @@ div h1{
 
 .genesis-heading h1{
     font-size: 25px;
-    font-weight: bold;
+    d-weight: bold;
 }
 
 .image-collection{    
